@@ -50,3 +50,9 @@ update config in deployment.yaml
 ```shell
 imagePullPolicy: Always
 ```
+
+
+### get service url
+```shell
+minikube service gok8s-service --url
+```
